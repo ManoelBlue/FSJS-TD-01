@@ -1,2 +1,2 @@
-# FSJS-TD-01
+# Full Stack Techdegree Project 01
  A Random Quote Generator
