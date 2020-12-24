@@ -73,6 +73,9 @@ function printQuote() {
     if(quote.year) {
         html += `<span class="year">${quote.year}</span>`;
     };
+    if(quote.character) {
+        html += `<span class="character">, <small>said by <b>${quote.character}</b></small></span>`;
+    };
     html += `</p>`;
 
     document.getElementById('quote-box').innerHTML = html;
