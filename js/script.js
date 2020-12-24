@@ -58,7 +58,7 @@ function getRandomQuote() {
 /**
  * @function
  * @name generateRandomBgColor
- * @description Refreshes the quote every 5secs
+ * @description Generates a random rgba bg color
  */
 function generateRandomBgColor() {
     const randomSpectrum = () => Math.floor(Math.random() * 256);
@@ -90,6 +90,7 @@ function printQuote() {
     };
     html += `</p>`;
 
+    document.body.style.backgroundColor = generateRandomBgColor();
     document.getElementById('quote-box').innerHTML = html;
 }
 
