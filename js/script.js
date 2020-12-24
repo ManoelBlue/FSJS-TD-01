@@ -57,6 +57,18 @@ function getRandomQuote() {
 
 /**
  * @function
+ * @name generateRandomBgColor
+ * @description Refreshes the quote every 5secs
+ */
+function generateRandomBgColor() {
+    const randomSpectrum = () => Math.floor(Math.random() * 256);
+    let color = `rgba(${randomSpectrum()}, ${randomSpectrum()}, ${randomSpectrum()}, 0.5)`
+
+    return color;
+};
+
+/**
+ * @function
  * @name printQuote
  * @description Prints a random quote within the div with id of quote-box
  */
