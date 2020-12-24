@@ -4,7 +4,7 @@ project 1 - A Random Quote Generator
 ******************************************/
 
 /*** 
- * `quotes` array 
+ * Array of objects with all quotes:
 ***/
 const quotes = [
     {
@@ -40,18 +40,23 @@ const quotes = [
 ];
 
 
-/***
- * `getRandomQuote` function
-***/
+/**
+ * @function
+ * @name getRandomQuote
+ * @description Select a random quote object from the quotes array.
+ * @returns {object}
+ */
 function getRandomQuote() {
     let randomNumber = Math.floor(Math.random() * quotes.length);
 
     return quotes[randomNumber];
 };
 
-/***
- * `printQuote` function
-***/
+/**
+ * @function
+ * @name printQuote
+ * @description Prints a random quote within the div with id of quote-box
+ */
 function printQuote() {
     let quote = getRandomQuote();
     let html = `
@@ -70,9 +75,7 @@ function printQuote() {
     document.getElementById('quote-box').innerHTML = html;
 }
 
-/***
- * click event listener for the print quote button
- * DO NOT CHANGE THE CODE BELOW!!
-***/
-
+/**
+ * Handler of button click:
+ */
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
