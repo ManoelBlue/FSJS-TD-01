@@ -85,3 +85,13 @@ function printQuote() {
  * Handler of button click:
  */
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
+
+/**
+ * @function
+ * @name refreshQuote
+ * @description Refreshes the quote every 5secs
+ */
+function refreshQuote() {
+    setInterval(function(){ printQuote(); }, 5000);
+};
+refreshQuote();
