@@ -8,32 +8,32 @@ project 1 - A Random Quote Generator
 ***/
 const quotes = [
     {
-        quote: '',
-        source: '',
+        quote: 'All we have to decide is what to do with the time that is given us.',
+        source: 'J.R.R. Tolkein',
+        citation: 'The Fellowship of the Ring',
+        year: '1954'
+    },
+    {
+        quote: 'It matters not what someone is born, but what they grow to be.',
+        source: 'J.K. Rowling',
+        citation: 'Harry Potter and the Goblet of Fire',
+        year: '2000'
+    },
+    {
+        quote: 'Not all those who wander are lost.',
+        source: 'J.R.R. Tolkein',
+        citation: 'The Lord of the Rings',
+        year: ''
+    },
+    {
+        quote: 'Life is what happens when you\'re busy making other plans.',
+        source: 'John Lennon',
         citation: '',
         year: ''
     },
     {
-        quote: '',
-        source: '',
-        citation: '',
-        year: ''
-    },
-    {
-        quote: '',
-        source: '',
-        citation: '',
-        year: ''
-    },
-    {
-        quote: '',
-        source: '',
-        citation: '',
-        year: ''
-    },
-    {
-        quote: '',
-        source: '',
+        quote: 'If you look at what you have in life, you\'ll always have more. If you look at what you don\'t have in life, you\'ll never have enough.',
+        source: 'Oprah Winfrey',
         citation: '',
         year: ''
     }
