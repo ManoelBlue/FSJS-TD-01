@@ -17,25 +17,28 @@ const quotes = [
         quote: 'It matters not what someone is born, but what they grow to be.',
         source: 'J.K. Rowling',
         citation: 'Harry Potter and the Goblet of Fire',
-        year: '2000'
+        year: '2000',
+        character: 'Professor Albus Dumbledore'
     },
     {
         quote: 'Not all those who wander are lost.',
         source: 'J.R.R. Tolkein',
         citation: 'The Lord of the Rings',
-        year: ''
+        year: '1954',
+        character: 'Aragorn'
     },
     {
         quote: 'Life is what happens when you\'re busy making other plans.',
-        source: 'John Lennon',
-        citation: '',
-        year: ''
+        source: 'John Lennon'
     },
     {
         quote: 'If you look at what you have in life, you\'ll always have more. If you look at what you don\'t have in life, you\'ll never have enough.',
-        source: 'Oprah Winfrey',
-        citation: '',
-        year: ''
+        source: 'Oprah Winfrey'
+    },
+    {
+        quote: 'There is nothing more precious than laughter',
+        source: 'Frida Kahlo',
+        citation: 'The Diary of Frida Kahlo: An Intimate Self-Portrait'
     }
 ];
 
