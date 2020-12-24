@@ -60,15 +60,15 @@ function getRandomQuote() {
 function printQuote() {
     let quote = getRandomQuote();
     let html = `
-        <p class="quote">QUOTE: ${quote.quote}</p>
-        <p class="source">SOURCE: ${quote.source}
+        <p class="quote">${quote.quote}</p>
+        <p class="source">${quote.source}
     `;
 
     if(quote.citation) {
-        html += `<span class="citation">CITATION: ${quote.citation}</span>`;
+        html += `<span class="citation">${quote.citation}</span>`;
     };
     if(quote.year) {
-        html += `<span class="year">YEAR: ${quote.year}</span>`;
+        html += `<span class="year">${quote.year}</span>`;
     };
     html += `</p>`;
 
